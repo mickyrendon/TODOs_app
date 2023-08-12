@@ -1,0 +1,20 @@
+.searcher{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 6rem;
+    border-inline: none;
+    border:none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.searcher:focus{
+    background:linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: white;
+    outline-color: transparent;
+    transition: ease-in-out;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.searcher:focus-visible{
+    outline-color: transparent;
+}
