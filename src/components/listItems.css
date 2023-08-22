@@ -42,7 +42,7 @@
 }
 /* inactive] */
 .inactive{
-    opacity: 0.4;
+opacity: 0.4;
 }
 .inactive .checked .circle{
     background-color: transparent;

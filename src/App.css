@@ -8,5 +8,7 @@
 body{
   padding: 4rem 2rem;
   height: 100vh;
+  display: grid;
+  place-items: center;
   background:linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99));
 }
