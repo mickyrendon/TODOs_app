@@ -1,0 +1,83 @@
+form{
+    padding: 2rem;
+    width: 100%;
+    max-width: 320px;
+    min-height: 16rem;
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+    /* background: linear-gradient(to right, rgb(243, 244, 246), rgb(209, 213, 219)); */
+    background:linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99));
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 0.7rem;
+}
+
+form label{
+    background:linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size:x-large;
+    text-align: center;
+}
+.inputFocus{
+    padding-left: 1rem;
+    width: 100%;
+    height: 2rem;
+    border-radius: 6rem;
+    border-inline: none;
+    border:none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    outline: none;
+    /* background:linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));*/
+    /* background: linear-gradient(to right, rgb(243, 244, 246), rgb(209, 213, 219));
+    background-clip: text;
+    -webkit-background-clip: text; */
+    color: linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99));
+    font-size:medium;
+    text-align: start;
+}
+.inputFocus:focus-within{
+    background:linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: white;
+    border: 1px  solid currentColor;
+    transition: ease-in-out;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.buttonsContainer{
+    width: 100%;
+    height: 4rem;
+    max-height: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+.newTodoForm-button--cancelar, .newTodoForm-button--agregar{
+/* .newTodoForm-button{ */
+    width: 5rem;
+    height: 2.5rem;
+    border: 1px solid rgba(245, 245, 245, 0.438);
+    outline: none;
+    border-radius: 0.3rem;
+} 
+.newTodoForm-button--cancelar{
+    background-color: linear-gradient(to right, rgb(243, 244, 246), rgb(209, 213, 219));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+.newTodoForm-button--agregar{
+    background:linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color:transparent;
+}
+
+@media (min-widht:520px) {
+    form .newTodoForm-button:hover{
+        cursor: pointer;
+    }
+}

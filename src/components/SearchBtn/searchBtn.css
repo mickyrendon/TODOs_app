@@ -1,0 +1,19 @@
+.search-btn{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: transparent;
+    border: none;
+    /* border-radius: 50%; */
+}
+.search-btn svg{
+    border: none;
+}
+/* TODO, verificar de donde sale esa clase color */
+.color{
+    color: white;
+}
+@media (min-width: 520px){
+    .search-btn:hover{
+        cursor: pointer;
+    }
+}

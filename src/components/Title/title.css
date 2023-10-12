@@ -1,9 +1,17 @@
-.title{
+.title, .title-completed, .title-total{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:xx-large;
+    text-align: center;
+}
+.title{
     background:linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    text-align: center;
+}
+.title-completed, .title-total{
+    background: linear-gradient(to right, rgb(243, 244, 246), rgb(209, 213, 219));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }

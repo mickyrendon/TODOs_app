@@ -9,6 +9,7 @@
     background-color: white;
     border-radius:0.5rem;
     color:dimgray;
+    transition: 100ms ease-in;
 }
 .items .checked{
     width: 1.75rem;
@@ -16,36 +17,40 @@
     display: grid;
     place-items: center;
     border-radius: 50%;
-    background:linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+    transition: 150ms ease-in-out;
+    color: #ebade6;
+    transition: 100ms ease-in-out;
 }
-.items .checked .circle{    
-    width: 1.25rem;
-    height: 1.25rem;
-    background-color: white;
-    border-radius: 50%;
-}
+
 
 /* close */
 .items .close{
     width: 1.75rem;
     height: 1.75rem;
-    background-image: url('../../public/assets/close-circle-svgrepo-com.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    /* color: rgba(224, 91, 91, 0.993); */
+    color: #ebade6;
     border-radius: 50%;
+    transition: 100ms ease-in-out;
 }
 
 /* hover */
-.items .checked .circle:hover, .items .close:hover{
+.items .checked:hover, .items .close:hover{
     cursor: pointer;
+    transition: 100ms ease-in-out;
+    transform: scale(1.1, 1.1) translate(0, 0);
+    box-shadow: 1px 1px 4px 0px currentColor;
 }
 /* inactive] */
 .inactive{
 opacity: 0.4;
 }
-.inactive .checked .circle{
+.inactive .checked{
+    color: white;
+    background:linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
     background-color: transparent;
+}
+.inactive .close{
+    color: #888ff8;
 }
 .inactive p{
     text-decoration: line-through;

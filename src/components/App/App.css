@@ -11,4 +11,5 @@ body{
   display: grid;
   place-items: center;
   background:linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99));
+  transition: 100ms ease-in-out;
 }
