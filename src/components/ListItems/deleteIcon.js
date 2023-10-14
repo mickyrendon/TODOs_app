@@ -1,8 +1,8 @@
-import { FiXCircle } from "react-icons/fi"
+import { FiTrash2 } from "react-icons/fi"
 
 export const DeleteIcon = ({ className, onClick}) => {
   return (
-    <FiXCircle
+    <FiTrash2
         className={className}
         onClick={onClick}
     />

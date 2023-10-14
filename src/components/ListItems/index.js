@@ -13,7 +13,7 @@ export const Items = ({text, completed, onComplete, onDelete}) => {
           onClick={onComplete}
         >
         </CompletedIcon>
-        <p>{text}</p>
+        <p className='text'>{text}</p>
         <DeleteIcon 
           className='close'
           onClick={onDelete}

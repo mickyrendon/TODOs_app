@@ -30,7 +30,7 @@ export const NewTodoForm = () => {
         <form 
             onSubmit={onSubmit}
         >
-            <label>Ponle nombre al nuevo TODO!</label>
+            <label>Nombra la nueva Tarea</label>
             <input 
                 type="text"
                 id="newTodo"

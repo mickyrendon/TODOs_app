@@ -11,7 +11,7 @@ export const Searcher = () => {
 
     return (
         <input
-            placeholder="Search to do"
+            placeholder="Buscar tarea"
             className='searcher' 
             value={state}
             onClick={ change } 

@@ -25,10 +25,10 @@ export const Title = () => {
 
   return completed === total && completed > 0
   ? (
-      <h1 className="title"> Congratulations you have completed <span className='title-completed'>{completed}</span> of <span className='title-total'>{total}</span> to dos
+      <h1 className="title">Felicitaciones has completado <span className='title-completed'>{completed}</span> de <span className='title-total'>{total}</span> Tareas
       </h1>
   ):(
-      <h1 className="title"> You have completed <span className='title-total'>{completed}</span> of <span className='title-completed'>{total}</span> to dos
+      <h1 className="title"> Has completado <span className='title-total'>{completed}</span> de <span className='title-completed'>{total}</span> Tareas
       </h1>
   )
   

@@ -51,7 +51,7 @@ export const TodoProvider = ({ children }) => {
       // console.log(name)
       // allTodos.forEach(item => todoFindDuplicated? console.log(name): console.log(item))
       
-      // FIXME, no funciona el validador
+      // FIXME, no funciona el validador / validar que no se repita el nombre y que el valor no este vacio
       if(todoFindDuplicated){
         
         alert('el todo que intentas ingresar ya existe')

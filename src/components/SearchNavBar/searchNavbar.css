@@ -18,7 +18,7 @@
     color: white;
     border: 1px  solid currentColor;
     transition: ease-in-out;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
 }
 /* .focus .svg{
     color: white;
