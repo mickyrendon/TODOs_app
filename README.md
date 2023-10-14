@@ -1,12 +1,29 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+## ToDo app
 
-¡Hola, Platzinauta!
+El repositorio contiene el código del proyecto [TODO app](), en donde apliqué las bases de react: 
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+- Componentes, props y atributos
+- Props Drillin
+- Eventos
+- Estados
+- Librerias de iconos
+- Local Storage
+- Custom hooks
+- Features-first Directories en React
+- UseEffect
+- React Context
+- Use Context
+- React Portals
+- Formularios
+- React Create App
+- Deploy con Github pages
+- Diferencia entre versiones
+- Nociones de React con Next.js y Vite
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+Para empezar podés clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+La rama principal `main` contiene el código realizado en el entorno de desarrollo y en la rama `gh-pages` el deploy de la aplicación.
+
 
 ## Getting Started with Create React App
 
